@@ -1,5 +1,34 @@
 
+.navbar {
+    max-width: 1400px;
+    border-radius: 22px;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 10;
+    width: calc(100% - 4rem);
+    margin: 1.5rem auto;
+}
 
+.nav {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0rem 2rem;
+}
+
+
+.navbar__item-list {
+    width: 40%;
+    max-width: 100%;
+    flex-wrap: wrap;   
+    padding-left: 2rem; 
+}
+ 
+.nav__link {
+    color: #000000;
+    ;
+}
 
 @media (max-width: 768px) {
     

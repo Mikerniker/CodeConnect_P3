@@ -1,24 +1,24 @@
 .button {
     border: none;
-    border-radius: 100px;
+    border-radius: 12px;
     cursor: pointer;
-    background: #482BE7;
+    background: #283849;
     color: #FFFFFF;
-    padding: 16px 24px;
+    padding: 12px 24px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     justify-content: center;
 }
 
-.button:hover {
+/* .button:hover {
     background:  #ae96bf;
 }
 
 .outline-button {
     background: none;
     border: 2px solid #ae96bf;
-}
+} */
 
 .hide-item {
     display: none;

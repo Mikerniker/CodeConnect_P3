@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="../css/globals/font-face.css">
         
         <!-- Atoms -->
-        
+        <link rel="stylesheet" href="../css/atoms/button.css">
+
         <!-- Blocks -->
         <link rel="stylesheet" href="../css/globals/header.css">
 
@@ -24,22 +25,16 @@
 
 
         <header >
-            <div class="header-container">
-                <div class="navbar">
+            <div class="container row is-centered">
+                <div class="navbar row is-centered">
                     <!-- Navigation Links -->
                 
-                    <nav class="nav row">
-                        <ul class="navbar__item-list row no-bullets is-equally-spaced">
-                            <li>
-                                <a href="#" class="nav__link text-left visited">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav__link text-left">
-                                    Features 
-                                </a>
-                            </li>
+                    <nav class="nav row is-equally-spaced is-centered">
+                        <div class="nav__logo">
+                            <img class="card__image width-100" src="../images/acuity-logo-final.svg.svg" alt="acuity logo" width="168" height="23" loading="lazy">
+
+                        </div>
+                        <ul class="navbar__item-list row no-bullets is-equally-spaced is-centered">
                             <li>
                                 <a href="#" class="nav__link text-left">
                                     Pricing
@@ -47,27 +42,28 @@
                             </li>
                             <li>
                                 <a href="#" class="nav__link text-left">
-                                    Blog
+                                    Help 
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="nav__link text-left">
-                                    <img class="nav__icon" src="../images/fa-dribbble.svg" alt="dribbble icon"  width="17" height="16" loading="lazy">
+                                    Log In
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav__link text-left">
-                                    <img class="nav__icon" src="../images/fa-behance.svg" alt="behance icon" width="21" height="14" loading="lazy">
-                                </a>
+                                <button class="button" type="button">
+                                    Try scheduling          
+                                </button>
                             </li>
-                            <button class="hamburger__menu" aria-label="Menu">
+                           
+                            <!-- <button class="hamburger__menu" aria-label="Menu">
                                 <svg class="hamburger__menu-icon" width="36" height="36" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>70 Basic icons by Xicons.co</title><path d="M41,14H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,14Z" fill="#ffffff"/><path d="M41,26H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,26Z" fill="#ffffff"/><path d="M41,38H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,38Z" fill="#ffffff"/></svg>
-                                <!-- <img class="hamburger__menu-icon" src="../images/hamburger-menu-svgrepo-com.svg" alt="hamburger menu icon"> -->
-                            </button>
+                              
+                            </button> -->
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
     </body>
-    </html>
+ </html>
