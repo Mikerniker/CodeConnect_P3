@@ -5,16 +5,16 @@
     margin: auto;
 }
 
-.main-content {
+/* .main-content {
     max-width: 100%;
     width: 75%;
-}
+} */
 
 .row {
     display: flex;
 }
 
-.column {
+.col {
     display: flex;
     flex-direction: column;
 }
@@ -50,5 +50,5 @@
 
 .width-100 {
     width: 100%;
-    height: auto;
+    max-width: 100%;
 }
