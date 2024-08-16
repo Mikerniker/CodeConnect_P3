@@ -1,0 +1,54 @@
+.container {
+    width: 1440px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.main-content {
+    max-width: 100%;
+    width: 75%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-bullets {
+    list-style-type: none; 
+}
+
+.is-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-top {
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.margin-bottom {
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.is-equally-spaced {
+    justify-content: space-between;
+}
+
+.flexible {
+    flex-grow: 1;
+}
+
+.width-100 {
+    width: 100%;
+    height: auto;
+}
