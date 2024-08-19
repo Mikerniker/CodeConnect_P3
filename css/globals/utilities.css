@@ -36,8 +36,8 @@
     margin: 1rem 0rem 0rem 0rem;
 }
 
-.margin-bottom {
-    margin: 0rem 0rem 1.5rem 0rem;
+.mb-0 {
+    margin-bottom: 0rem;
 }
 
 .is-equally-spaced {
