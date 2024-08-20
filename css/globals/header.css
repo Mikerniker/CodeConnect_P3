@@ -1,4 +1,3 @@
-
 .navbar {
     max-width: 1400px;
     border-radius: 22px;
@@ -17,7 +16,6 @@
     padding: 0rem 2rem;
 }
 
-
 .navbar__item-list {
     width: 40%;
     max-width: 100%;
@@ -27,7 +25,6 @@
  
 .nav__link {
     color: #000000;
-    ;
 }
 
 @media (max-width: 768px) {

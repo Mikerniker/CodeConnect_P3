@@ -62,10 +62,7 @@ h3 {
     font-weight: 500;
     line-height: 25.6px;
     text-align: left;
-
 }
-
-
 
 
 button,
@@ -89,3 +86,21 @@ button,
     text-align: center;
 }
 
+
+/*FOOTER*/
+.footer__header-link {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.footer__link {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+
+}

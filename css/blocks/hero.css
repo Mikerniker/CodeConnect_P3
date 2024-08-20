@@ -1,3 +1,7 @@
 .hero__headings {
     width: 40%;
 }
+
+.hero__slider {
+    gap: 1rem;
+}
