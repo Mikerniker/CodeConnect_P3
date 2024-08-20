@@ -19,6 +19,29 @@ a {
     text-decoration: none;
   }
 
+
+
+  h1 {
+    font-family: Inter;
+    font-size: 37.19px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+p {
+    font-family: Inter;
+    font-size: 15.88px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+
+
   /* h1, h2, h4,
   .subheader  {
      font-weight: 700;
@@ -42,11 +65,7 @@ h3 {
 
 }
 
-/*
-p {
-    font-size: 16px;
-    line-height: 26px;
-} */
+
 
 
 button,
