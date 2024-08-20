@@ -1,16 +1,35 @@
 .card {    
-    max-width: 470px;
+    max-width: 400px;
     margin: 0 auto;
     position: relative; 
 }
 
 .card__image-wrapper {
-    max-width: 470px;
+    max-width: 400px;
 }
 
-.card__image {
+.card__image-group {
+        position: relative;
+    }
+    
+.card__content-time {
+    position: absolute;
+    top: 7.65px;
+    left: 8px;
+    color: white;  
+    width: 100%;
+}
+
+.card__circle {
+    width: 15px;
+    height: 15px;
+    background-color: azure;
+    border-radius: 50%;
+}
+
+/* .card__image {
     border-radius: 10px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .card__text {
@@ -24,7 +43,34 @@
     bottom: 0;
     left: 0;
     content: "";
-  } 
+  }  */
+
+
+
+
+  
+
+  
+ 
+  
+  .date-month,
+  .date-number,
+  .card__content-date-text {
+      margin: 0;
+  }
+  
+  
+  .date-number {
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 24px;  
+      text-align: left;
+  }
+  
+  
+
+
+
 
 /* Team Cards */
 .card__team {
