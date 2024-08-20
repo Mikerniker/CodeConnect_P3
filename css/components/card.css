@@ -12,12 +12,17 @@
         position: relative;
     }
     
-.card__content-time {
+.card__content-text {
     position: absolute;
-    top: 7.65px;
-    left: 8px;
+    top: 1rem;
     color: white;  
     width: 100%;
+    padding: 0rem 1rem;
+}
+
+
+.card__time {
+    gap: 0.5rem;
 }
 
 .card__circle {
@@ -27,14 +32,11 @@
     border-radius: 50%;
 }
 
-/* .card__image {
+.card__image {
     border-radius: 10px;
-    object-fit: cover;
+    height: auto;
 }
 
-.card__text {
-    padding-bottom: 2rem;
-}
 
 .card__link {
     position: absolute;
@@ -43,65 +45,14 @@
     bottom: 0;
     left: 0;
     content: "";
-  }  */
+  }  
 
-
-
-
-  
-
-  
- 
-  
-  .date-month,
-  .date-number,
-  .card__content-date-text {
-      margin: 0;
-  }
-  
-  
-  .date-number {
-      font-size: 1.5rem;
-      font-weight: 600;
-      line-height: 24px;  
-      text-align: left;
-  }
-  
-  
-
-
-
-
-/* Team Cards */
-.card__team {
-   /* max-width: 154px; 
-   max-width: 100%; */
-   flex: 0 1 30%;
-}
-
-.card__user-image-wrapper {
-    max-width: 100px;
-}
-
-.card__user-image {
-    border-radius: 50%;
-    object-fit: contain;
-}
-
-.card__socials {
-    padding-left: 0;
-    gap: 1rem;
-}
 
 
 @media (max-width: 768px) {
-.card__team {
+.card {
     flex: 0 1 100%;
  }
 
- .card__content,
- .card__text {
-    align-items: center;
-    
  }
 }

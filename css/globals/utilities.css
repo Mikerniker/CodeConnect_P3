@@ -40,6 +40,10 @@
     margin-bottom: 0rem;
 }
 
+.ml-1 {
+    margin-left: 1rem;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
