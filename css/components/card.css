@@ -21,7 +21,6 @@
     padding: 0rem 1rem;
 }
 
-
 .card__time {
     gap: 0.5rem;
 }
@@ -35,11 +34,8 @@
 
 .card__image {
     border-radius: 10px;
-    
     height: auto; 
-   
 }
-
 
 .card__link {
     position: absolute;
@@ -49,6 +45,18 @@
     left: 0;
     content: "";
   }  
+
+  /* REVIEW FOR LATER*/
+
+  .appointment-text {
+    font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+color: #222222;
+
+  }
 
 
 @media (max-width: 768px) {
