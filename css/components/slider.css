@@ -1,0 +1,37 @@
+
+  /* Slider */  /* review for later */
+
+  .slider {
+    width: 100%; 
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__wrapper {
+    display: flex;
+    
+    /* width: max-content;
+    transition: transform 0.5s linear; */
+    animation: slide 10s infinite linear;
+    width: 100%; 
+}
+
+.slider__card {
+    margin-left: 1rem;
+
+    flex-shrink: 0;  /* review for later */
+    width: 100%; 
+}
+
+
+/* Animation for sliding */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
