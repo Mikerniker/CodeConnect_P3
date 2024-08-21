@@ -6,6 +6,7 @@
 
 .card__image-wrapper {
     max-width: 400px;
+    overflow: hidden; /* added */
 }
 
 .card__image-group {
@@ -34,7 +35,9 @@
 
 .card__image {
     border-radius: 10px;
-    height: auto;
+    
+    height: auto; 
+   
 }
 
 
@@ -48,6 +51,44 @@
   }  
 
 
+  /* Slider */
+
+  /* Style the slider container */
+.slider {
+    width: 100%; 
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style the wrapper that holds the images */
+.slider-wrapper {
+    display: flex;
+    
+    /* width: max-content;
+    transition: transform 0.5s linear; */
+    animation: slide 10s infinite linear;
+    width: 100%; 
+}
+
+.carousel__card {
+    margin-left: 1rem;
+
+    flex-shrink: 0;
+    width: 100%; 
+}
+
+
+/* Define the animation for sliding */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
 
 @media (max-width: 768px) {
 .card {
@@ -55,4 +96,3 @@
  }
 
  }
-}

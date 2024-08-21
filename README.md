@@ -2,7 +2,8 @@
 
 **Live Link:**
 
-
+References:
+- [CSS Counter](https://www.w3schools.com/css/css_counters.asp)
 
 
 NOTES:
