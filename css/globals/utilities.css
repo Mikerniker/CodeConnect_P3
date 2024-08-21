@@ -57,3 +57,7 @@
     width: 100%;
     max-width: 100%;
 }
+
+.gx-1 {
+ gap: 1rem;   
+}
