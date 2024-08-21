@@ -27,8 +27,9 @@
     margin: 0;
 }
 
-.margin-top {
-    margin: 1rem 0rem 0rem 0rem;
+.margin-top,
+.mt-1 {
+    margin-top: 1rem;
 }
 
 .mb-0 {
