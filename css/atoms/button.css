@@ -2,13 +2,22 @@
     border: none;
     border-radius: 12px;
     cursor: pointer;
-    background: #283849;
-    color: #FFFFFF;
+    
     padding: 12px 24px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     justify-content: center;
+}
+
+.blue-button {
+    background: #283849;
+    color: #FFFFFF;
+}
+
+.white-button {
+    background: #FFFFFF; 
+    color: #283849;
 }
 
 /* .button:hover {
