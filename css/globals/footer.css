@@ -24,12 +24,24 @@ footer {
     padding-top: 2.5rem;
 }
 
+.footer__logo-wrapper {
+    max-width: 168px;
+    width: 100%;
+}
 
+.footer__logo {
+    width: 168px;
+    height: 31px;
+}
 
 @media (max-width: 768px) {
    .footer__content,
    .footer__navigation-links {
     flex-direction: column;
+   }
+
+   .footer__content {
+    align-items: center;
    }
 
    .footer__navigation-links {
