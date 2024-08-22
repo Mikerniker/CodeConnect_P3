@@ -45,6 +45,11 @@
     padding-right: 2rem;
   }
 
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
 .justify-content-between {
     justify-content: space-between;
 }
