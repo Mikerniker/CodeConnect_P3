@@ -1,0 +1,27 @@
+.support {
+    width: 90%;
+}
+
+
+
+
+.support__text {
+    padding-left: 88px;
+    gap: 2rem;
+width: 100%;
+
+}
+
+.support__image-wrapper {
+    width: 100%;
+max-width: 100%;
+
+}
+
+.support__image {
+    max-width: 557.83px;
+    width: 100%;
+    border-radius: 22px;
+
+
+}

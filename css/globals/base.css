@@ -28,14 +28,33 @@ a {
     color: #FFFFFF;
 }
 
-p {
+h2 {
     font-family: Inter;
-    font-size: 15.88px;
-    font-weight: 400;
-    line-height: 25.6px;
-    text-align: center;
+    font-size: 37.81px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
     color: #FFFFFF;
-} 
+    }
+    
+p {
+font-family: Inter;
+font-size: 15.88px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+    }
+
+
+.support__link {
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+
+    }
+
 
 
   /* h1, h2, h4,
