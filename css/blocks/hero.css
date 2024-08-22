@@ -5,3 +5,10 @@
 .hero__slider {
     gap: 1rem;
 }
+
+
+@media (max-width: 768px) {
+.hero__headings {
+    width: 80%;
+}
+}
