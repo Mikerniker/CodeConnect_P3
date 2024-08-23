@@ -50,6 +50,10 @@ footer {
     align-items: center;
     }
 
+    .footer__group-links {
+        column-count: 1;
+    }
+
     .footer__no-title {
         padding-top:0; 
         margin: 0;
