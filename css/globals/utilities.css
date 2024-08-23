@@ -27,10 +27,6 @@
     margin: 0;
 }
 
-.p-0 {
-    padding: 0;
-}
-
 .margin-top,
 .mt-1 {
     margin-top: 1rem;
@@ -46,6 +42,15 @@
 
 .ml-1 {
     margin-left: 1rem;
+}
+
+
+.p-0 {
+    padding: 0;
+}
+
+.pt-1 {
+    padding-top: 1rem;
 }
 
 .px-2 {
@@ -71,9 +76,14 @@
     max-width: 100%;
 }
 
+
 .gx-1 {
  gap: 1rem;   
 }
+
+.gy-2 {
+    gap: 2rem;   
+   }
 
 .text-white {
     color: white;

@@ -18,7 +18,6 @@ a {
     text-decoration: none;
   }
 
-
   h1 {
     line-height: 48px;
     color: #FFFFFF;
@@ -36,18 +35,18 @@ a {
     line-height: 25.6px;
     }
 
-h3,
-.footer__header-link,
-.footer__link {   
-    font-family: 'Avenir Next', sans-serif;
-}
+    h3,
+    .footer__header-link,
+    .footer__link {   
+        font-family: 'Avenir Next', sans-serif;
+    }
 
-button,
-.nav__link {
-    font-family: Inter;
-    font-size: 14px;
-    line-height: 18.76px;
-}
+    button,
+    .nav__link {
+        font-family: Inter;
+        font-size: 14px;
+        line-height: 18.76px;
+    }
 
 .text-left {
     text-align: left;
