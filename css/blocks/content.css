@@ -23,3 +23,18 @@
 .support__link {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .support {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .support__text {
+        margin-top: 0;
+        padding-left: 0;
+        gap: 0;
+       
+    }
+    
+ }
