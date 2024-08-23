@@ -4,6 +4,7 @@
     border-radius: 22px;
     background-color: #283849;
     gap: 12rem;
+    margin: auto;
     /* flex-wrap: wrap; */
 }
 
