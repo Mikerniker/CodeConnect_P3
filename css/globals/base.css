@@ -1,12 +1,10 @@
 html, body {
     margin: 0;
     padding: 0; 
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
-    /* background-color: #ffffff; */
-   
     background-color: #ffffff;
     color: #0E0E0E;
     ;
@@ -20,64 +18,41 @@ a {
     text-decoration: none;
   }
 
-  h1 {
-    font-family: Inter;
-    font-size: 37.19px;
+
+.fw-normal {}
+fw-light {}
+
+
+  h1, h2, h3,
+  .footer__header-link {
     font-weight: 500;
+  }
+
+
+  h1 {
     line-height: 48px;
-    text-align: center;
     color: #FFFFFF;
 }
 
-h2 {
-    font-family: Inter;
+  h1 {
+    font-size: 37.19px;
+}
+
+  h2 {
     font-size: 37.81px;
-    font-weight: 500;
-    line-height: 48px;
-    text-align: left;
-    color: #FFFFFF;
     }
     
-p {
-font-family: Inter;
-font-size: 15.88px;
-font-weight: 400;
-line-height: 25.6px;
-text-align: left;
-    }
-
-
+p,
 .support__link {
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 25.6px;
-text-align: left;
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
     }
 
-
-
-  /* h1, h2, h4,
-  .subheader  {
-     font-weight: 700;
- 
-}
-
-
-
-h2 {
-    font-size: 58px;
-    line-height: 70px;
-} */
-
-/*NEW */
 h3 {   
     font-family: 'Avenir Next', sans-serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 25.6px;
-    text-align: left;
 }
 
 
@@ -87,18 +62,13 @@ button,
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
-    text-align: left;
 }
-
-/* .subheader-lead {
-    line-height: 28px;
-} */
 
 .text-left {
     text-align: left;
 }
 
-.text-centered {
+.text-center {
     text-align: center;
 }
 
@@ -107,7 +77,6 @@ button,
 .footer__header-link {
     font-family: 'Avenir Next', sans-serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 25.6px;
     text-align: left;
 }
