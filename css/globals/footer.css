@@ -12,8 +12,9 @@ footer {
     gap: 5rem;
     flex-wrap: wrap;
 }
+
 .footer__group-links {
-    padding: 0;
+    column-count: 2;
 }
 
 .footer_navlink {
