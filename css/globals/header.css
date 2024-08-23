@@ -52,13 +52,19 @@
         padding: 1rem 0rem;
     }
     .nav {
-        justify-content: flex-end;
+        justify-content: space-between;
         gap: 4rem;
         padding: 0rem 0.2rem;
     }
 
+    .nav__logo {
+        margin-left: 10rem;
+        
+    }
+
     .hamburger__menu {
         display: flex;
+      
     }
 
     .navbar__item-list {
