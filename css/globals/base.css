@@ -19,8 +19,13 @@ a {
   }
 
 
-.fw-normal {}
-fw-light {}
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-bold {
+    font-weight: 500;
+}
 
 
   h1, h2, h3,
