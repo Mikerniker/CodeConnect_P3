@@ -24,21 +24,14 @@
     background:  #ae96bf;
 }
 
-.outline-button {
-    background: none;
-    border: 2px solid #ae96bf;
-} */
 
 .hide-item {
     display: none;
 }
 
 @media (max-width: 768px) {
-    .outline-button {
-        display: none;
-    }
 
     .hide-item {
         display: flex;
     }
-}
+} */
