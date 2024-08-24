@@ -22,3 +22,18 @@
     max-width: 100%;
     border-radius: 22px;
     }
+
+
+    /* Card 2*/
+
+    .feature__card-2 {
+    max-width: 454px;
+    width: 100%;
+    border-radius: 22px;
+    background-color: #F4F4F4;
+    gap: 2rem;
+    }
+
+    .feature__text-2 {
+    padding-right: 4rem;
+    }
