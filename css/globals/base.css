@@ -26,26 +26,35 @@ a {
     font-size: 37.19px;
 }
 
-  h2 {
-    font-size: 37.81px;
-    }
- 
-  .lh-base {
-    line-height: 25.6px;
-    }
+h2 {
+/* font-size: 37.81px; */
+font-size: 22.88px;
+color: #222222;
+}
 
-    h3,
-    .footer__header-link,
-    .footer__link {   
-        font-family: 'Avenir Next', sans-serif;
-    }
+p {
+    font-size: 13.78px;
+    line-height: 25.2px;
+    color: #222222;
+}
 
-    button,
-    .nav__link {
-        font-family: Inter;
-        font-size: 14px;
-        line-height: 18.76px;
-    }
+.lh-base {
+/* line-height: 25.6px; */
+line-height: 24px;
+}
+
+h3,
+.footer__header-link,
+.footer__link {   
+    font-family: 'Avenir Next', sans-serif;
+}
+
+button,
+.nav__link {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 18.76px;
+}
 
 .text-left {
     text-align: left;

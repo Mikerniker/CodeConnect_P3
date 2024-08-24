@@ -1,0 +1,24 @@
+
+.feature__card-1 {
+    max-width: 928px;
+    width: 100%;
+    height: auto;
+    border-radius: 22px;
+    background-color: #F4F4F4;  
+    }
+
+    .feature__text {
+        width: 50%;
+        padding-right: 7rem;
+    }
+
+    .feature__image-wrapper {
+       width: 50%;
+    }
+    
+    .feature__image-1 {
+    width: 464px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 22px;
+    }
