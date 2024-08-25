@@ -75,11 +75,12 @@ gap: 1rem;
 /* Payments Card */
 
 .payments__container {
-    max-width: 1360px;
-    width: 100%;
+    /* max-width: 1360px; */
+    width: 90%;
     padding: 64px 20px;
     border-radius: 22px;
     background-color: #E0EBF4;
+    margin: auto;
 }
 
 .payments {
@@ -122,7 +123,7 @@ gap: 1rem;
     }
 
 .payments__image-wrapper {
-    padding: 0px 57.5px;
+    padding: 0rem 0.5rem;
     flex-wrap: wrap;
 }
 
