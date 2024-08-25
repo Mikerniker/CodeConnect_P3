@@ -82,6 +82,32 @@ const features =
   }
 ]
 
+let benefitsText = document.getElementById("benefitsText").innerHTML = "";
+
+
+
+const renderFeatures = (array) => {
+    const featuresHTML = array.map((feature) => {
+        return `<p id="benefitsText" class="benefits__text no-margin">
+        <strong>${feature.headline}</strong> <br>
+        ${feature.body}
+        </p>`
+      
+    });
+};
+
+
+
+
+// DELETE LATEr 
+// let text = "";
+// for (let text in features) {
+//   text += person[x] + " ";
+// };
+
+// Display the Text
+
+
 
 
 
