@@ -1,0 +1,31 @@
+
+
+.benefits {
+    top: 3211.19px;
+    padding: 120px 138px 49px 138px;
+}
+
+.benefits__headings {
+    padding: 0px 0px 64px 0px;
+    align-items: center;
+}
+
+.benefits__heading-title {
+    line-height: 48px;
+    padding-right:  109px;
+}
+
+.benefits__heading-lead {
+    font-family: 'Avenir Next', sans-serif;
+    line-height: 25.6px;
+
+  
+padding: 0px 71px 0.19px 0px;
+
+}
+
+
+.benefits__card-group-list {
+/* width: Fixed (1,164px)px;
+height: Hug (427.5px)px; */
+}
