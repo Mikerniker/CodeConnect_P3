@@ -60,6 +60,25 @@ color: #222222;
 
   
 
+  /* Benefits Card */
+  .benefits__card {
+    max-width: 244.44px;
+    width: 100%; 
+    padding: 0px 6.44px 21.95px 0px;
+    gap: 24.8px;
+   }
+ 
+   .benefits-text-number {
+    font-size: 21px;
+    line-height: 28.8px;
+}
+
+  .benefits-text-title {
+    font-family: 'Avenir Next', sans-serif;
+    line-height: 22.4px;
+}
+
+
 
 @media (max-width: 768px) {
 .card {
