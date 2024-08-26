@@ -7,6 +7,7 @@
 #### TO DO
 - Fix Font size for H2
 - Fix images
+- Fix footer spacing
 - Fix slider 1 - Heading
 - Make slider 2 
 
