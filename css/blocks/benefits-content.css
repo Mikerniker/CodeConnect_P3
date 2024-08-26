@@ -1,13 +1,21 @@
-
-
 .benefits {
     top: 3211.19px;
     padding: 120px 138px 49px 138px;
 }
 
 .benefits__headings {
-    padding: 0px 0px 64px 0px;
+    padding-bottom: 1rem;
     align-items: center;
+}
+
+.benefits__card-group-list {
+    counter-reset: count;
+    flex-wrap: wrap;
+}
+
+.benefits__text-number::before {
+    counter-increment: count;
+    content: counter(count, decimal-leading-zero);
 }
 
 .benefits__heading-title {
@@ -18,14 +26,6 @@
 .benefits__heading-lead {
     font-family: 'Avenir Next', sans-serif;
     line-height: 25.6px;
-
-  
-padding: 0px 71px 0.19px 0px;
-
+    padding: 0px 71px 0.19px 0px;
 }
 
-
-.benefits__card-group-list {
-/* width: Fixed (1,164px)px;
-height: Hug (427.5px)px; */
-}

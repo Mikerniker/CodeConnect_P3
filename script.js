@@ -82,36 +82,29 @@ const features =
   }
 ]
 
-let benefitsText = document.getElementById("benefitsText").innerHTML = "";
 
+function addEntry() {
+  const cardElement = document.getElementById("featCard");
+  cardElement.innerHTML = ""; 
 
+  for (let i = 0; i < features.length; i++) {
+    let cardItem = `
+    <div class="benefits__card">    
+      <div class="benefits__text-group col width-100 pr-1">
+          <p class="benefits__text-number mt-0"></p>
+          <p class="benefits__text no-margin">
+              <strong>${features[i].headline}</strong> <br>
+              ${features[i].body}
+          </p>
+      </div>
+      </div>    
+    `;
+    cardElement.innerHTML += cardItem;
+  }
+}
 
-const renderFeatures = (array) => {
-    const featuresHTML = array.map((feature) => {
-        return `<p id="benefitsText" class="benefits__text no-margin">
-        <strong>${feature.headline}</strong> <br>
-        ${feature.body}
-        </p>`
-      
-    });
-};
-
-
-
-
-// DELETE LATEr 
-// let text = "";
-// for (let text in features) {
-//   text += person[x] + " ";
-// };
-
-// Display the Text
-
-
-
-
-
-
+addEntry();
+  
 
 
 // FOR REVIEW
