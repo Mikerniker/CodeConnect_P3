@@ -82,6 +82,7 @@ const features =
   }
 ]
 
+// CODE FOR BENEFITS-CONTENT.HTML FEATURE CARDS
 
 function addEntry() {
   const cardElement = document.getElementById("featCard");
@@ -97,8 +98,7 @@ function addEntry() {
               ${features[i].body}
           </p>
       </div>
-      </div>    
-    `;
+      </div>  `;
     cardElement.innerHTML += cardItem;
   }
 }
@@ -107,13 +107,12 @@ addEntry();
   
 
 
-// FOR REVIEW
-
+// CODE FOR SLIDER ---->> FOR REVIEW
 
 document.addEventListener('DOMContentLoaded', () => {
     const sliderWrapper = document.querySelector('.slider__wrapper');
     const sliderCards = document.querySelectorAll('.slider__card');
-    const totalCards = sliderCards.length / 2; // Half are clones
+    const totalCards = sliderCards.length / 2; // Half are clones ??
 
     let scrollWidth = sliderWrapper.scrollWidth / 2;
 
@@ -132,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-//OLDER
+//SLIDER CODE -- OLDER FOR REVIEW
 
 // document.addEventListener('DOMContentLoaded', function() {
 //     const sliderWrapper = document.querySelector('.slider-wrapper');
