@@ -8,7 +8,7 @@
 - Fix Font size for H2
 - Fix images
 - Fix footer spacing
-- Fix slider 1 - Heading
+- Fix slider 1 (Heading) - JS and Size / Width
 - Make slider 2 
 
 
