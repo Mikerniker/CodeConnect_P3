@@ -58,19 +58,28 @@ gap: 1rem;
 }
 
 .feature__card-3 {
-    max-width: 718px;
+    /* max-width: 718px; */
     width: 100%;
     border-radius: 22px;
     justify-content: space-between; 
 }
 
 .feature__text-3 {
-    padding: 20px 73px;
+    /* padding: 20px 73px; */
+    padding: 1rem 10rem;
 }
 
 .feature__text-description-3 {
     font-size: 15.88px;
     line-height: 25.6px;
+}
+
+.feature__image-3 {
+    max-width: 718px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 /* Payments Card */
