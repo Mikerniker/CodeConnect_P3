@@ -15,6 +15,11 @@ footer {
 
 .footer__group-links {
     column-count: 2;
+    column-gap: 5rem;
+}
+
+.footer__group-links-contact {
+    
 }
 
 .footer_navlink {
