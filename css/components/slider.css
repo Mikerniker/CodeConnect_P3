@@ -24,12 +24,7 @@
   position: relative; 
   }
 
-
   /* Appointment Slideshow */
-
-  /* .slideshow {
-    gap: 1rem;
-  } */
 
   .slide {
     flex-shrink: 0;
@@ -45,13 +40,13 @@
     line-height: 18px;
 }
 
-.slide__image-wrapper {
-  max-width:370px;
-  width: 100%;
-}
+  .slide__image-wrapper {
+    max-width:370px;
+    width: 100%;
+  }
 
-.slide__image {
-  width: 350px;
-  height: auto;
-  border-radius: 22px ;
-}
+  .slide__image {
+    width: 350px;
+    height: auto;
+    border-radius: 22px ;
+  }
