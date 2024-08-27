@@ -105,6 +105,37 @@ function addEntry() {
 
 addEntry();
   
+// REVIEW AND MODIFY FOR LATER: INITIAL CODE FOR APPOINMENT SLIDER
 
+let slideIndex = 1;
+moveSlides(slideIndex);
 
+// Next/previous controls
+function incSlides(n) {
+  moveSlides(slideIndex += n);
+}
 
+function decSlides(n) {
+  moveSlides(slideIndex -= n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  moveSlides(slideIndex = n);
+}
+
+function moveSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+}
