@@ -1,11 +1,6 @@
-footer {
-    padding: 40px;
-    /* background-color: #ffffff; */
-}
-
 .footer__content {
-    max-width: 100%;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .footer__navigation-links {
