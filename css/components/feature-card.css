@@ -10,6 +10,10 @@
     background-color: #F4F4F4;  
     }
 
+.feature__title {
+    font-size: 22.88px;
+}
+
 .feature__text {
     width: 50%;
     padding-right: 7rem;

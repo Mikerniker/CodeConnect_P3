@@ -39,8 +39,11 @@ p {
 }
 
 .lh-base {
-/* line-height: 25.6px; */
-line-height: 24px;
+    line-height: 24px;
+}
+
+.lh-lg {
+    line-height: 48px;
 }
 
 h3,

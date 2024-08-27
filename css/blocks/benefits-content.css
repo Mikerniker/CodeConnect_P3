@@ -21,7 +21,8 @@
 
 .benefits__heading-title {
     line-height: 48px;
-    padding-right:  109px;
+    /* padding-right:  109px; */
+    width: 40%
 }
 
 .benefits__heading-lead {
@@ -47,7 +48,7 @@
     }
 
     .benefits__heading-title { 
-        padding-right: 0;
+         width: 100%
     }
 
     .benefits__heading-lead {
