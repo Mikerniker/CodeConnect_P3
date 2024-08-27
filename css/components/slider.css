@@ -1,97 +1,25 @@
-  /* Slider */  /* review for later */
+  /* Slider */ 
 
-  .slider {
-    width: 100%; 
-    height: auto;
-    overflow: hidden;
-
+.slider {
+  max-width: 100%;
+  width: 100%; 
+  overflow: hidden;
 }
 
-.slider__wrapper { 
-    gap: 1rem;
+@keyframes infiniteScroll {
+  from {transform: translateX(0) }
+  to {transform: translateX(-100%);} 
 }
-
-
-.slider__card {
-    
-  }
-
-
-  @keyframes infiniteScroll {
-    from {transform: translateX(0) }
-    to {transform: translateX(calc(0px - 50%));}
-  }
-  .slider__wrapper {
-    animation-name: infiniteScroll;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
-
-
-
-/* OLDER */
-/* .slider {
-    height: 800px;
-    margin: auto;
-    margin-top: -100px;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-  }
-
-  
 
 .slider__wrapper {
-  display: flex;
-  width: 14400px;
-  animation: scroll 40s linear infinite;
+  animation: infiniteScroll 30s linear infinite;
+  gap: 1rem;
 }
 
-
-.slider__wrapper:hover {
-    animation-play-state: paused;
+.slider__card {
+  flex-shrink: 0; 
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; 
   }
-
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-800px * 9));
-    }
-  }
-
-
-  .slider__card  {
-    
-    perspective: 300px;
-  }
-
-
-  .slider::before,
-.slider::after {
- 
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 15%;
-  z-index: 2;
-}
-
-
-.slider::before {
-    left: 0;
-    top: 0;
-  }
-  
-  
-  .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ("180deg");
-  } */
