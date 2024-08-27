@@ -3,13 +3,23 @@
 }
 
 .hero__headings {
-    width: 40%;
+    width: 50%;
 }
 
 .hero__slider {
     gap: 1rem;
 }
 
+.hero__lead {
+    margin: 0rem 3rem 2rem 3rem;  
+    font-size: 15.88px;
+    line-height: 25.6px;
+}
+
+.hero__small-text {
+    font-size: 12px;
+line-height: 19.2px;
+}
 
 @media (max-width: 768px) {
 .hero__headings {
