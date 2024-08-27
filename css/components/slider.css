@@ -23,3 +23,35 @@
   margin: 0 auto;
   position: relative; 
   }
+
+
+  /* Appointment Slideshow */
+
+  /* .slideshow {
+    gap: 1rem;
+  } */
+
+  .slide {
+    flex-shrink: 0;
+  }
+
+  .slide__controls {
+    justify-content: end;
+  }
+
+  .slide__controls-text {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 17.72px;
+    line-height: 18px;
+}
+
+.slide__image-wrapper {
+  max-width:370px;
+  width: 100%;
+}
+
+.slide__image {
+  width: 350px;
+  height: auto;
+  border-radius: 22px ;
+}
