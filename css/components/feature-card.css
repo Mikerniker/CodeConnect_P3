@@ -28,9 +28,11 @@
 .feature__image-1 {
     max-width: 464px;
     width: 100%;
+    height: auto;
     border-radius: 22px;
-    object-fit: cover;
+    object-fit: contain;
 }
+
 
 
     /* Card 2*/
