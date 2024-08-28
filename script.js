@@ -92,8 +92,8 @@ function addEntry() {
     let cardItem = `
     <div class="benefits__card">    
       <div class="benefits__text-group col width-100 pr-1">
-          <h3 class="benefits__text-number mt-0"></h3>
-          <h4 class="benefits__text-title no-margin">${features[i].headline}</h4>
+          <p class="benefits__text-number mt-0"></p>
+          <h3 class="benefits__text-title no-margin">${features[i].headline}</h3>
           <p class="benefits__text no-margin">
               ${features[i].body}
           </p>
