@@ -29,8 +29,35 @@
 
   /* Appointment Slideshow */
 
-  .slide {
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  user-select: none;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+  .slideshow__cards-group {
+    /* position: relative;
+    overflow: hidden; */
+    /* position: absolute; */
+    transform: translateX(-0%);
+    transition: transform 1s;
+  }
+
+  .slide__card {
     flex-shrink: 0;
+   
+    max-width: 400px;
+    margin: 0 auto;
+    /* position: relative;  */
+     
   }
 
   .slide__controls {
@@ -53,3 +80,12 @@
     height: auto;
     border-radius: 22px ;
   }
+
+.slide__arrow-icon {
+  width: 15px;
+height: 12pxpx;
+}
+
+.active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
