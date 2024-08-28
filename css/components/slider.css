@@ -4,6 +4,8 @@
   max-width: 100%;
   width: 100%; 
   overflow: hidden;
+ 
+
 }
 
 @keyframes infiniteScroll {
@@ -14,6 +16,7 @@
 .slider__wrapper {
   animation: infiniteScroll 30s linear infinite;
   gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 .slider__card {
