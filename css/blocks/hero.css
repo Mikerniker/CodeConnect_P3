@@ -21,9 +21,11 @@ line-height: 19.2px;
 
 /* Appointment Section */
 .appointment__headings {
-    padding-bottom: 1rem;
+    /* padding: 1rem 5rem; */
     align-items: center;
     gap: 5rem;
+    width: 81%;
+    margin: auto;
 }
 
 .appointments__heading-title {
@@ -43,4 +45,16 @@ line-height: 19.2px;
 .hero__headings {
     width: 80%;
 }
+
+.appointment__headings {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+}
+.appointments__heading-lead,
+.appointments__heading-title {
+    width: 90%;
+    margin-bottom: 0;
+}
+
 }
