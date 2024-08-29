@@ -11,10 +11,10 @@ cards.forEach(function(card) {
 
 // APPOINTMENT SLIDESHOW
 
-const counter = document.getElementById("slideCount");
-const nextButton = document.querySelector("#nextButton")
-const previousButton = document.querySelector("#prevButton")
-let slideNumber = 1;
+// const counter = document.getElementById("slideCount");
+// const nextButton = document.querySelector("#nextButton")
+// const previousButton = document.querySelector("#prevButton")
+// let slideNumber = 1;
 
 // nextButton.onclick = addCount;
 // previousButton.onclick = subtractCount;
@@ -34,26 +34,47 @@ let slideNumber = 1;
 //   counter.innerText = "0" + slideNumber;
 // }
 
-let currIndex = 0;
+
+
+let currIndex = 1;
 const slider = document.querySelector('.slideshow__cards-group');
-const cardImage = header.getElementsByClassName("slide__image");
+const cardImage = slider.getElementsByClassName("slide__card");
+const counter = document.getElementById("slideCount");
 
-function slide(nextIndex) {
-    if (nextIndex < 0) nextIndex = cardImage.length - 1;
-    if (nextIndex >= cardImage.length) nextIndex = 0;
+selectSlide(currIndex);
 
-    counter.innerText = "0" + currIndex;
-    slider.style.transform = `translateX(-${(nextIndex / cardImage.length) * 100}%)`;
-    currIndex = nextIndex;
+// Next/previous controls
+function nextSlide(n) {
+  selectSlide(currIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  selectSlide(currIndex = n);
+}
+
+function selectSlide(n) {
+  let slides = document.getElementsByClassName("slide__card");
+  let slideImage = document.getElementsByClassName("slide__image");
+
+  if (n > slides.length) {
+    currIndex = 1;
   }
+  if (n < 1) {
+    currIndex = slides.length;
+  }
+  
+  // Remove the 'active' class from all slides
+  for (i = 0; i < slideImage.length; i++) {
+    slideImage[i].className = slideImage[i].className.replace(" active", "");
+  }
+  
+  // Add the 'active' class to the current slide
+  slideImage[currIndex-1].className += " active";
 
-
-
-// /* REVIEW FOR LATER */ */
-// previousButton.addEventListener
-
-
-
+  // Update the counter with leading zero if necessary
+  counter.innerText = (currIndex < 10 ? "0" : "") + currIndex;
+}
 
 
 // TEST BUTTON

@@ -34,30 +34,17 @@
   cursor: pointer;
   width: auto;
   user-select: none;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
-
-.slideshow {
-  position: relative;
-  overflow: hidden;
-
-}
-
 
   .slideshow__cards-group {
-    /* position: relative;
-    overflow: hidden; */
-    /* position: absolute; */
-    transform: translateX(-0%);
-    transition: transform 1s;
+    position: relative;
+    overflow: hidden;
   }
 
   .slide__card {
     flex-shrink: 0;
-   
-    max-width: 400px;
-    margin: 0 auto;
-    /* position: relative;  */
-     
   }
 
   .slide__controls {
@@ -83,9 +70,12 @@
 
 .slide__arrow-icon {
   width: 15px;
-height: 12pxpx;
+  height: 12pxpx;
 }
 
-.active {
+.active,
+.prev:hover,
+.next:hover,
+.slide__image:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

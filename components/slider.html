@@ -97,7 +97,7 @@
 
 
 <div class="slideshow width-100">
-    <div class="slide__controls row is-centered gx-1">
+    <div class="slide__controls row is-centered gy-2">
         <div >
             <p class="slide__controls-text" >
                <span id="slideCount"> 01 </span> / 09
@@ -105,11 +105,11 @@
         </div>
 
         <!-- Next and previous buttons -->
-        <div>
-            <a id="prevButton" class="prev" onclick="">
+        <div class="slideshow__buttons row">
+            <a id="prevButton" class="prev" onclick="nextSlide(-1)">
                 <img class="slide__arrow-icon" src="../images/arrow-left.svg.svg" alt="left arrow icon" width="16" height="12" loading="lazy">
             </a>
-            <a id="nextButton" class="next" onclick="">
+            <a id="nextButton" class="next" onclick="nextSlide(1)">
                 <img class="slide__arrow-icon" src="../images/arrow-right.svg.svg" alt="right arrow icon" width="16" height="12" loading="lazy">
             </a>
         </div>
