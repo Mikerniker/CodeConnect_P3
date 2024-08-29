@@ -24,7 +24,7 @@ function nextSlide(n) {
   selectSlide(currIndex += n);
 }
 
-// Thumbnail image controls
+// Image controls
 function currentSlide(n) {
   selectSlide(currIndex = n);
 }
