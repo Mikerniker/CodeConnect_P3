@@ -126,12 +126,118 @@
                         <h2 class="text-left fw-bold">Appointment booking software that adapts for you</h2>
                         
                         <p class="px-2 fw-normal">
-                            Free up time in your day with dynamic scheduling tools tailored to
-your needs
+                            Free up time in your day with dynamic scheduling tools tailored to your needs
                         </p>
                         
                     </div>
-                    <div class="appointment__cards row gx-1">  
+
+
+                    <!-- Appointment Slideshow container -->
+
+
+<div class="slideshow width-100">
+    <div class="slide__controls row is-centered gy-2">
+        <div >
+            <p class="slide__controls-text" >
+               <span id="slideCount"> 01 </span> / 09
+            </p>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="slideshow__buttons row">
+            <a id="prevButton" class="prev" onclick="nextSlide(-1)">
+                <img class="slide__arrow-icon" src="../images/arrow-left.svg.svg" alt="left arrow icon" width="16" height="12" loading="lazy">
+            </a>
+            <a id="nextButton" class="next" onclick="nextSlide(1)">
+                <img class="slide__arrow-icon" src="../images/arrow-right.svg.svg" alt="right arrow icon" width="16" height="12" loading="lazy">
+            </a>
+        </div>
+    </div>
+
+    <!-- Slideshow cards -->
+    <div id="slideGroup" class="slideshow__cards-group row gx-1">
+
+        <!-- Images with text -->
+
+        <div class="slide__card ">        
+            <div class="card__content col">
+                <img class="slide__image width-100 active" src="../images/1_calculator.jpg" alt="calculator" width="5472" height="3648" loading="lazy">
+                <p class="appointment-text">Education and Tutoring</p>
+            </div>
+        </div>
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/TaxandCompliance.jpg" alt="man doing taxes" width="800" height="534" loading="lazy">
+                <p class="appointment-text">Financial, Public and Legal Services</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/dog-massage.jpg" alt="dog getting a massage" width="6240" height="4160" loading="lazy">
+                <p class="appointment-text">Pet Care and Grooming</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/4_car.jpg" alt="navy blue car" width="4912" height="3264" loading="lazy">
+                <p class="appointment-text">Automotive Maintenance</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/haircut.jpg" alt="cat grooming" width="6046" height="4031" loading="lazy">
+                <p class="appointment-text">Cat Therapy</p>
+            </div>
+        </div>
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/group-yoga.jpg" alt="group yoga" width="6720" height="4480" loading="lazy">
+                <p class="appointment-text">Group Yoga Sessions</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/reiki.jpg" alt="woman meditating" width="7952" height="5304" loading="lazy">
+                <p class="appointment-text">Meditation Courses</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/massage.jpg" alt="woman getting massage" width="7680" height="5120" loading="lazy">
+                <p class="appointment-text">Massage Sessions</p>
+            </div>
+        </div>
+
+
+        <div class="slide__card">        
+            <div class="card__content col">
+                <img class="slide__image width-100" src="../images/2_finance.jpg" alt="notebook and calculator" width="4241" height="2829" loading="lazy">
+                <p class="appointment-text">Financial Advice</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+                    <!-- <div class="appointment__cards row gx-1">  
                         <div class="card">            
                             <div class="card__content">
                                 <div class="card__group col">
@@ -200,10 +306,12 @@ your needs
                             </div>
                         </div>
         
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
 
+
+        <script src="../js/carousel.js"></script>
     </body>
     </html>
