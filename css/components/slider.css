@@ -41,6 +41,7 @@
   .slideshow__cards-group {
     position: relative;
     overflow: hidden;
+    transition: transform 0.5s ease;  /* added */
   }
 
   .slide__card {
