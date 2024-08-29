@@ -48,7 +48,6 @@ function selectSlide(n) {
 
   // Update the counter
   counter.innerText = (currIndex < 10 ? "0" : "") + currIndex;
- 
 }
 
 

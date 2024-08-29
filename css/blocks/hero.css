@@ -19,6 +19,26 @@
 line-height: 19.2px;
 }
 
+/* Appointment Section */
+.appointment__headings {
+    padding-bottom: 1rem;
+    align-items: center;
+    gap: 5rem;
+}
+
+.appointments__heading-title {
+    line-height: 48px;
+    width: 40%;
+    font-size: 38.28px;
+}
+
+.appointments__heading-lead {
+    font-size: 15.75px;
+    font-weight: 400;
+    line-height: 19.2px;
+    width: 33%;
+}
+
 @media (max-width: 768px) {
 .hero__headings {
     width: 80%;
