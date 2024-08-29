@@ -41,7 +41,6 @@
   .slideshow__cards-group {
     position: relative;
     overflow: hidden;
-    transition: transform 0.5s ease;  /* added */
   }
 
   .slide__card {
@@ -64,7 +63,8 @@
   }
 
   .slide__image {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
     border-radius: 22px ;
   }

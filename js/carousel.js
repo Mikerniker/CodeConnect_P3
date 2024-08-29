@@ -11,34 +11,10 @@ cards.forEach(function(card) {
 
 // APPOINTMENT SLIDESHOW
 
-// const counter = document.getElementById("slideCount");
-// const nextButton = document.querySelector("#nextButton")
-// const previousButton = document.querySelector("#prevButton")
-// let slideNumber = 1;
-
-// nextButton.onclick = addCount;
-// previousButton.onclick = subtractCount;
-
-// function addCount() {
-//     if (slideNumber < 9) {
-//         slideNumber++
-//     counter.innerText = "0" + slideNumber;
-// }
-// }
-
-// function subtractCount() {
-//   if (slideNumber <= 1) {
-//     slideNumber = 1;
-//   } else {
-//     slideNumber-- }
-//   counter.innerText = "0" + slideNumber;
-// }
-
-
-
 let currIndex = 1;
+let slideImage = document.getElementsByClassName("slide__image");
 const slider = document.querySelector('.slideshow__cards-group');
-const cardImage = slider.getElementsByClassName("slide__card");
+const imageContainer = slider.getElementsByClassName("slide__card");
 const counter = document.getElementById("slideCount");
 
 selectSlide(currIndex);
@@ -54,14 +30,11 @@ function currentSlide(n) {
 }
 
 function selectSlide(n) {
-  let slides = document.getElementsByClassName("slide__card");
-  let slideImage = document.getElementsByClassName("slide__image");
-
-  if (n > slides.length) {
+  if (n > imageContainer.length) {
     currIndex = 1;
   }
   if (n < 1) {
-    currIndex = slides.length;
+    currIndex = imageContainer.length;
   }
   
   // Remove the 'active' class from all slides
@@ -71,9 +44,11 @@ function selectSlide(n) {
   
   // Add the 'active' class to the current slide
   slideImage[currIndex-1].className += " active";
+  slideImage[currIndex-1].scrollIntoView();
 
-  // Update the counter with leading zero if necessary
+  // Update the counter
   counter.innerText = (currIndex < 10 ? "0" : "") + currIndex;
+ 
 }
 
 
