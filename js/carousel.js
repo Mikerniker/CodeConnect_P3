@@ -44,7 +44,7 @@ function selectSlide(n) {
   
   // Add the 'active' class to the current slide
   slideImage[currIndex-1].className += " active";
-  slideImage[currIndex-1].scrollIntoView();
+  slideImage[currIndex-1].scrollIntoView({ behavior: "smooth", block: "nearest" });
 
   // Update the counter
   counter.innerText = (currIndex < 10 ? "0" : "") + currIndex;
