@@ -49,15 +49,3 @@ function selectSlide(n) {
   // Update the counter
   counter.innerText = (currIndex < 10 ? "0" : "") + currIndex;
 }
-
-
-// TEST BUTTON
-
-// const myTest = document.getElementById("testMe");
-// const testButton = document.getElementById("testButton"); 
-
-// testButton.onclick = addTest;
-
-// function addTest() {
-//   myTest.innerText = "TEST";
-// }
