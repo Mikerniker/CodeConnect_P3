@@ -10,7 +10,7 @@ https://mikerniker.github.io/CodeConnect_P3/
 - ~~Fix footer spacing~~
 - ~~Fix slider 1 (Heading) - JS and Size / Width~~
 - ~~Make slider 2 / Fix~~
-- Fix image size and alts
+- ~~Fix image size and alts~~
 
 
 
