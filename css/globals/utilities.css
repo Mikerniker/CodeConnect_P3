@@ -98,11 +98,11 @@
     max-width: 100%;
 }
 
-.g-1,
-.gx-1 {
+.g-1 {
  gap: 1rem;   
 }
 
+.g-2,
 .gy-2 {
     gap: 2rem;   
    }
