@@ -102,11 +102,10 @@
  gap: 1rem;   
 }
 
-.g-2,
-.gy-2 {
+.g-2 {
     gap: 2rem;   
    }
 
 .text-white {
-    color: white;
+    color: #ffffff;
 }
