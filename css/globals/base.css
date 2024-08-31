@@ -23,7 +23,7 @@ a {
 }
 
   h1 {
-    font-size: 37.19px;
+    font-size: 37px;
 }
 
 h2 {
@@ -33,14 +33,14 @@ color: #222222;
 }
 
 p {
-    font-size: 13.78px;
-    line-height: 25.2px;
+    font-size: 14px;
+    line-height: 25px;
     color: #222222;
 }
 
 .lead {
-    font-size: 15.88px;
-    line-height: 25.6px;
+    font-size: 1rem;
+    line-height: 25px;
 }
 
 
@@ -85,5 +85,5 @@ button,
 /*FOOTER*/
 
 .footer__link {
-    line-height: 21.86px;
+    line-height: 2rem;
 }

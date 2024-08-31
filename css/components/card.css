@@ -52,7 +52,7 @@
     font-family: Inter;
 font-size: 1rem;
 font-weight: 400;
-line-height: 19.2px;
+line-height: 19px;
 text-align: left;
 color: #222222;
 
@@ -61,23 +61,23 @@ color: #222222;
 
   /* Benefits Card */
   .benefits__card {
-    max-width: 244.44px;
+    max-width: 244px;
     width: 100%; 
-    padding: 0px 6.44px 21.95px 0px;
-    gap: 24.8px;
+    padding: 0px 6px 22px 0px;
+    gap: 25px;
    }
  
    .benefits__text-number {
     font-size: 24px;
     font-weight: 400;
-    line-height: 28.8px;
+    line-height: 29px;
     text-align: left;
 }
 
 .benefits__text-title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 22.4px;
+    line-height: 22px;
 }
 
 
